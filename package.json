@@ -1,6 +1,6 @@
 {
   "name": "ntlm-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js NTLM client with support for NTLM and NTLMv2 authentication",
   "keywords": [
     "ntlm",
@@ -19,6 +19,9 @@
   },
   "bugs": {
   	"url": "https://github.com/clncln1/node-ntlm-client/issues"
+  },
+  "engines": {
+  	"node": ">=4.0.0"
   },
   "license": "MIT",
   "dependencies": {
