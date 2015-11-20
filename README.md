@@ -10,7 +10,7 @@ npm install ntlm-client
 
 #### authenticate(options)
 
-A convinience function that tries to authenticate against a given URL using the `request` module.
+A convenience function that tries to authenticate against a given URL using the `request` module.
 
 * Arguments
   * `options` an object holding below options for the authentication process:
