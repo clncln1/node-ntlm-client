@@ -20,7 +20,7 @@ A convenience function that tries to authenticate against a given URL using the 
     * `password`
     * `request` this is optional. An object that holds options that should be passed to the request instance
 * Returns
-  * `Promise` when resolved, the `request` instance, the result and the reponse body will be passed as arguments
+  * `Promise` when resolved, the `request` instance, the result and the response body will be passed
 
 ---------------------------------------
 
