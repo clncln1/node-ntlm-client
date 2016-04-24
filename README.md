@@ -11,6 +11,7 @@ npm install ntlm-client
 #### request(options)
 
 A convenience function that tries to authenticate against a given URL using the `request` module.
+If NTLM is not supported, it will fallback to Basic Auth.
 
 * Arguments
   * `options` an object holding below options for the authentication process:
