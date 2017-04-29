@@ -1,6 +1,6 @@
 {
   "name": "ntlm-client",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A node.js NTLM client with support for NTLM and NTLMv2 authentication",
   "keywords": [
     "ntlm",
