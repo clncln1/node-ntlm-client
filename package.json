@@ -18,10 +18,10 @@
     "url": "https://github.com/clncln1/node-ntlm-client.git"
   },
   "bugs": {
-  	"url": "https://github.com/clncln1/node-ntlm-client/issues"
+    "url": "https://github.com/clncln1/node-ntlm-client/issues"
   },
   "engines": {
-  	"node": ">=4.0.0"
+    "node": ">=4.0.0"
   },
   "license": "MIT",
   "dependencies": {
