@@ -6,6 +6,30 @@ A node.js NTLM client with support for NTLM and NTLMv2 authentication
 npm install ntlm-client
 ```
 
+## Example Usage
+```javascript
+const ntlmRequest = require('@elasticio/ntlm-client').request;
+
+(async function makeExampleRequest() {
+  const { response } = await ntlmRequest({
+    username: 'MYDOMAIN\SomeUser',
+    password: 'P@$$word1!',
+    uri: 'https://api.someservice.com',
+    method: 'POST',
+    request: {
+      json: true,   // Example of parameter passed to request.js
+      body: {
+        foo: 'bar'
+      },
+      headers: {
+        Date: 'Today'
+      }
+    }
+  });
+  console.log(`Received status code: ${response.statusCode} Body: ${response.body}`);
+})()
+```
+
 ## API
 
 #### request(options)
