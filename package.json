@@ -1,5 +1,5 @@
 {
-  "name": "@elasticio/ntlm-client",
+  "name": "@elastic.io/ntlm-client",
   "version": "1.0.0",
   "description": "A node.js NTLM client with support for NTLM and NTLMv2 authentication. Continuation of ntlm-client and node-ntlm-client.",
   "keywords": [
